@@ -1,16 +1,11 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-
-interface Exercise {
-  name: string;
-  sets: number;
-  reps: number;
-  days: string[];
-}
+import { createSlice } from "@reduxjs/toolkit";
 
 interface ExercisesState {
+  id:string
 }
 
 const initialState: ExercisesState = {
+  id:"01"
 };
 
 const exercisesSlice = createSlice({
