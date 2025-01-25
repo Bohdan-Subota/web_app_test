@@ -46,7 +46,7 @@ const ClientInterface = () => {
 
   return (
     <div className="client-container">
-      <h2>Today's Exercises - {weekDays[currentDayIndex]}</h2>
+      <h2>Todays Exercises - {weekDays[currentDayIndex]}</h2>
       <table className="exercise-table">
         <thead>
           <tr>
