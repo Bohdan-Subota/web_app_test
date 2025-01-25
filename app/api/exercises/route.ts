@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-let exercises = [
+const exercises = [
   { name: "Push-ups", sets: 3, reps: 15, days: ["Monday"] },
   { name: "Pull-ups", sets: 4, reps: 10, days: ["Tuesday"] },
 ];
